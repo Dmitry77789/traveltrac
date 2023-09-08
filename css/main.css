@@ -6921,7 +6921,7 @@ html {
   box-sizing: border-box;
   margin-top: 0px;
   padding: 0px;
-  background-image: url(../img/svg/oje.webp);
+  background-image: url(../img/svg/oje.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6938,7 +6938,6 @@ html {
   border-bottom-style: initial;
   border-bottom-color: initial;
   margin-bottom: 0px;
-  height: 110vh;
 }
 
 .values__container {
@@ -7262,6 +7261,7 @@ html {
     display: flex;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 50px;
   }
 }
 
@@ -7271,8 +7271,9 @@ html {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 15rem;
+  padding-top: 330px;
   width: 50%;
+  padding-bottom: 100px;
 }
 @media (max-width: 999px) {
   .desktop {
