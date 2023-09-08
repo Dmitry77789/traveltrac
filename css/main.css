@@ -2805,7 +2805,7 @@ html {
   box-sizing: border-box;
   margin-top: 0px;
   height: 100%;
-  background-image: url(../img/svg/podarok.webp);
+  background-image: url(/img/svg/podarok.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
