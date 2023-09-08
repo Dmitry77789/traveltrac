@@ -1323,7 +1323,9 @@ html {
 }
 @media (max-width: 576px) {
   .politics__heading {
-    font-size: 50px;
+    font-size: 30px;
+    line-height: 100%;
+    font-weight: bold;
   }
 }
 
