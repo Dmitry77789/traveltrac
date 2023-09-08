@@ -6800,7 +6800,7 @@ html {
   width: 50%;
 }
 @media (max-width: 999px) {
-  .desktop {
+  .desktop--one {
     display: none;
   }
 }
