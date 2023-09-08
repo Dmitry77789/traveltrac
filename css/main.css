@@ -6575,8 +6575,8 @@ html {
 }
 @media (max-width: 576px) {
   .tems__title {
-    font-size: 40px;
-    line-height: 100%;
+    font-size: 35px;
+    line-height: 0%;
     
   }
 }
@@ -8444,12 +8444,12 @@ html {
 @media (max-width: 576px) {
   .footer__item-text {
     font-size: 10px;
+    line-height: 100%;
   }
 }
 @media (max-width: 400px) {
   .footer__item-text {
     font-size: 7.5px;
-    line-height: 2em;
   }
 }
 
