@@ -6801,7 +6801,7 @@ html {
 }
 @media (max-width: 999px) {
   .desktop--one {
-    display: none;
+    display: none !important;
   }
 }
 
