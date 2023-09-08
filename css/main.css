@@ -2171,6 +2171,13 @@ html {
   margin-bottom: 10px;
 }
 
+@media (max-width: 576px) {
+  .email__title {
+    font-size: 22px;
+    width: 60%;
+  }
+}
+
 .email__description {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2253,6 +2260,13 @@ html {
   border-color: rgb(0, 0, 0);
   -webkit-transition: background-color 0.5s ease, color 0.5s ease;
   transition: background-color 0.5s ease, color 0.5s ease; /* добавлено */
+}
+
+@media (max-width: 576px) {
+  .email__button {
+    font-size: 12px;
+    padding: 10px;
+  }
 }
 
 .email__button:hover {
@@ -6439,7 +6453,6 @@ html {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-bottom: 0px;
-  height: 80vh;
 }
 
 .tems__container {
@@ -7477,7 +7490,7 @@ html {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 484px) {
   .partners-grid .partners-grid_list {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -8496,7 +8509,7 @@ html {
 }
 @media (max-width: 576px) {
   .footer__submit-button {
-    top: 11px;
+    top: 14px;
   }
 }
 
