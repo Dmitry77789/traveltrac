@@ -516,7 +516,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var flickity__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flickity__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/index.js */ "./src/js/components/index.js");
 
- // Правильный путь к вашему компоненту
 
 if (location.pathname.includes('/facts.html')) {
   var elem = document.querySelector('.values__slider');
@@ -551,24 +550,19 @@ if (location.pathname.includes('/facts.html')) {
   buttonRightMobile.addEventListener('touchend', navigateToNextSlide);
 }
 if (location.pathname.includes('/history.html')) {
-  // Получаем кнопку и поп-ап по классам
+ 
   const openButton = document.querySelector('.history__bta');
 
-  // Получаем кнопку "Закрыть" по классу
   const closeButton = document.querySelector('.popup__close');
 
-  // Получаем поп-ап по классу
   const popup = document.querySelector('.popup');
 
-  // Обработчик нажатия на кнопку "УЗНАТЬ"
   openButton.addEventListener('click', () => {
     // Добавляем класс popup--open, чтобы открыть поп-ап
     popup.classList.add('popup--open');
   });
 
-  // Обработчик нажатия на кнопку "Закрыть"
   closeButton.addEventListener('click', () => {
-    // Удаляем класс popup--open, чтобы закрыть поп-ап
     popup.classList.remove('popup--open');
   });
 }
@@ -953,69 +947,68 @@ function _extends() { _extends = Object.assign ? Object.assign.bind() : function
 const cardsData = [{
   titleOne: 'Куршская коса',
   titleTwo: 'Балтийское море',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/kursk.webp'
 }, {
   titleOne: 'Калбак-Таш',
   titleTwo: 'Чуйский Тракт',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/cuisk.webp'
 }, {
   titleOne: 'Озеро Кезенойам',
   titleTwo: 'Андийский Хребет',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/ozero.webp'
 }, {
   titleOne: 'Кунгурская Пещера',
   titleTwo: 'Пермь',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/kun3.webp'
 }, {
   titleOne: 'Шиханы',
   titleTwo: 'Башкирия',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/bashk.webp'
 }, {
   titleOne: 'Эгикал',
   titleTwo: 'Ингушетия',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/ingush.webp'
 }, {
   titleOne: 'Чарские пески',
   titleTwo: 'Забайкалье',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/zabaiak.webp'
 }, {
   titleOne: 'Вулкан Тятя',
   titleTwo: 'Курильские острова',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/kurili.webp'
 }, {
   titleOne: 'Хибины',
   titleTwo: 'Кольский полуостров',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/hibini.webp'
 }, {
   titleOne: 'Каньон Рускеала',
   titleTwo: 'Карелия',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/kareil.webp'
 }, {
   titleOne: 'Гамсутль',
   titleTwo: 'Дагестан',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/gamstul.webp'
 }, {
   titleOne: 'Васюганские болота',
   titleTwo: 'Томская область',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/tomsk.webp'
 }, {
   titleOne: 'Патомский кратер',
   titleTwo: 'Сибирь',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/sibir.webp'
 }, {
   titleOne: 'Большой Тхач',
   titleTwo: 'Кавказ',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/kavkaz.webp'
 }, {
   titleOne: 'Сейдозеро',
   titleTwo: 'Лапландия',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/lapland.webp'
 }, {
   titleOne: 'Новгородский детинец',
   titleTwo: 'Великий Новгород',
-  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/novgorod.webp'
 }
-// Добавьте остальные данные для остальных карточек
 ];
 
 function PlaceCard({
@@ -1060,13 +1053,11 @@ function PlaceSlider() {
       }
     };
 
-    // Вызовите функцию handleResize, чтобы установить начальные настройки при загрузке страницы
+    
     handleResize();
 
-    // Добавьте слушателя события изменения размера окна
     window.addEventListener('resize', handleResize);
 
-    // Очистите слушателя события при размонтировании компонента
     return () => {
       window.removeEventListener('resize', handleResize);
     };
