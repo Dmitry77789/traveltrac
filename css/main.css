@@ -2553,12 +2553,12 @@ html {
 }
 @media (max-width: 576px) {
   .diversity__title--one {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 @media (max-width: 400px) {
   .diversity__title--one {
-    font-size: 45px;
+    font-size: 30px;
     line-height: 40px;
   }
 }
@@ -2594,12 +2594,12 @@ html {
 }
 @media (max-width: 576px) {
   .diversity__title--two {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
 @media (max-width: 400px) {
   .diversity__title--two {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
   }
 }
@@ -5507,6 +5507,12 @@ html {
   position: relative; /* Добавьте эту строку */
 }
 
+@media (max-width: 567px) {
+  .place__desktop--title {
+    font-size: 35px;
+  }
+}
+
 .place__desktop--title::after {
   content: "";
   position: absolute;
@@ -5784,6 +5790,13 @@ html {
   font-weight: 700;
   line-height: 2;
   display: block;
+}
+
+@media (max-width: 567px) {
+  .place__text {
+    font-size: 22px;
+    line-height: 30px;
+  }
 }
 
 .place__link {
@@ -6281,7 +6294,7 @@ html {
 }
 @media (max-width: 576px) {
   .map__title {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -7224,6 +7237,7 @@ html {
   background-size: cover;
   background-color: transparent;
   border: none;
+  
 }
 
 .round-button .round-button__circle {
