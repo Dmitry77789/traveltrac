@@ -953,7 +953,8 @@ function _extends() { _extends = Object.assign ? Object.assign.bind() : function
 const cardsData = [{
   titleOne: 'Куршская коса',
   titleTwo: 'Балтийское море',
-  imageUrl: '../img/svg/kun3.webp'
+  imageUrl: '../img/svg/kun3.webp',
+  src: '../img/svg/kun3.webp'
 }, {
   titleOne: 'Калбак-Таш',
   titleTwo: 'Чуйский Тракт',
