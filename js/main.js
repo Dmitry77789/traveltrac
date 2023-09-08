@@ -953,67 +953,67 @@ function _extends() { _extends = Object.assign ? Object.assign.bind() : function
 const cardsData = [{
   titleOne: 'Куршская коса',
   titleTwo: 'Балтийское море',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/kursk.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Калбак-Таш',
   titleTwo: 'Чуйский Тракт',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/cuisk.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Озеро Кезенойам',
   titleTwo: 'Андийский Хребет',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/ozero.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Кунгурская Пещера',
   titleTwo: 'Пермь',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/kun3.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Шиханы',
   titleTwo: 'Башкирия',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/bashk.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Эгикал',
   titleTwo: 'Ингушетия',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/ingush.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Чарские пески',
   titleTwo: 'Забайкалье',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/zabaiak.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Вулкан Тятя',
   titleTwo: 'Курильские острова',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/kurili.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Хибины',
   titleTwo: 'Кольский полуостров',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/hibini.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Каньон Рускеала',
   titleTwo: 'Карелия',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/kareil.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Гамсутль',
   titleTwo: 'Дагестан',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/gamstul.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Васюганские болота',
   titleTwo: 'Томская область',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/tomsk.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Патомский кратер',
   titleTwo: 'Сибирь',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/sibir.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Большой Тхач',
   titleTwo: 'Кавказ',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/kavkaz.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Сейдозеро',
   titleTwo: 'Лапландия',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/lapland.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }, {
   titleOne: 'Новгородский детинец',
   titleTwo: 'Великий Новгород',
-  imageUrl: 'file:///Users/dmitriy/Desktop/traveltrac/img/svg/novgorod.webp'
+  imageUrl: 'https://dmitry77789.github.io/traveltrac/img/svg/roader.webp'
 }
 // Добавьте остальные данные для остальных карточек
 ];
