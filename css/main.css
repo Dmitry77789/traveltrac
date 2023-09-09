@@ -4775,6 +4775,11 @@ html {
   width: 98.5%;
 }
 
+@media (min-width: 1200px) {
+  .trip__content {
+width: 65.1666666667%;
+    margin: 0 auto; }
+}
 /* Trip Title */
 .trip__title {
   text-align: center;
@@ -5424,12 +5429,51 @@ html {
   display: block;
 }
 
+@media (min-width: 1200px) {
+  .trip__map--image {
+    width: 81.8333333333%;
+    margin: 0 auto;
+  }
+}
+
 /* Trip Map */
 .trip__map {
   max-width: 750px;
   margin: 0 auto;
   display: block;
 }
+
+@media (min-width: 1200px) {
+  .trip__map {
+    max-width: 100%;
+  }
+}
+
+.trip__map img {
+  height: 170%;
+    position: absolute;
+    top: -70px;
+    left: 0;
+}
+
+@media (max-width: 1200px) {
+  .trip__map img {
+    position: relative;
+    height: auto;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .trip__map img {
+    position: relative;
+    height: auto;
+    top: 0;
+    width: 100%;
+  }
+}
+
 
 /* Trip Map Paragraph */
 .trip__map--paragraph {
