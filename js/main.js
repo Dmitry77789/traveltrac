@@ -1046,10 +1046,10 @@ function PlaceSlider() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
-      if (screenWidth >= 768) {
-        setIsMobile(false);
-      } else {
+      if (screenWidth <= 768) {
         setIsMobile(true);
+      } else {
+        setIsMobile(false);
       }
     };
 
@@ -1066,7 +1066,7 @@ function PlaceSlider() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: isMobile ? 1 : 3,
+    slidesToShow: isMobile ? 3 : 3,
     slidesToScroll: 1,
     arrows: false,
     responsive: [{
