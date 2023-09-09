@@ -6696,12 +6696,19 @@ html {
   flex-shrink: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 20px;
   text-align: center;
   height: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  
   color: #000;
+}
+
+.tems__text {
+  margin: 0;
+  padding: 1rem 0;
+  color: rgb(11, 11, 11);
+  font-weight: bold;
+  width: 100%;
+  font-size: 13px;
 }
 
 .tems__controls {
