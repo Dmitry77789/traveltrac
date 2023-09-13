@@ -608,6 +608,44 @@ if (location.pathname.includes('/history.html')) {
   });
 }
 
+if (location.pathname.includes('/rukzak.html')) {
+  // Get references to the button and video container
+  const showVideoButton = document.getElementById("showVideoButton");
+  const videoContainer = document.querySelector(".map-video-full-screen__container");
+  const mapContent = document.querySelector(".map__content");
+  const video = videoContainer.querySelector("video");
+
+  // Function to handle video closing
+  function closeVideo() {
+    videoContainer.classList.remove("active");
+    mapContent.classList.remove("noactive");
+    video.pause();
+    video.currentTime = 0;
+  }
+
+  // Add a click event listener to the button
+  showVideoButton.addEventListener("click", function() {
+    // Toggle the "active" class on the video container
+    videoContainer.classList.toggle("active");
+    mapContent.classList.toggle("noactive");
+
+    // If the video container is active, play the video
+    if (videoContainer.classList.contains("active")) {
+      video.play();
+    } else {
+      // If the video container is not active, pause and reset the video
+      closeVideo();
+    }
+  });
+
+  // Add an event listener for the "ended" event to close the video when it finishes
+  video.addEventListener("ended", function() {
+    closeVideo();
+  });
+}
+
+
+
 if (location.pathname.includes('/pay.html')) {
   const checkbox1 = document.getElementById("checkbox");
   const initialElement1 = document.querySelector(".pincod__initial--sub");
