@@ -143,6 +143,27 @@ select {
   border-radius: 0;
   -webkit-border-radius: 0;
 }
+.element {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s, transform 1s;
+}
+
+.element.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.vertical {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 1s, transform 1s;
+}
+
+.vertical.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
 
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button {
