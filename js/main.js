@@ -644,6 +644,35 @@ if (location.pathname.includes('/rukzak.html')) {
   });
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animate");
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+
+  document.querySelectorAll('.element').forEach(element => {
+    observer.observe(element);
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animate");
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+
+  document.querySelectorAll('.vertical').forEach(element => {
+    observer.observe(element);
+  });
+});
 
 
 if (location.pathname.includes('/pay.html')) {
