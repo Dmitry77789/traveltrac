@@ -7070,16 +7070,6 @@ opacity: 1;
   background-size: cover;
   width: 100vw;
   margin-left: calc(50% - 50vw);
-  border-width: 1.5px 0px 0px;
-  border-color: beige;
-  border-width: 1px 0px 0px;
-  border-top-style: solid;
-  border-left-style: initial;
-  border-left-color: initial;
-  border-right-style: initial;
-  border-right-color: initial;
-  border-bottom-style: initial;
-  border-bottom-color: initial;
   margin-bottom: 0px;
 }
 
@@ -7312,13 +7302,12 @@ opacity: 1;
   font-size: 16px;
   text-align: center;
   height: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   color: #ffffff;
 }
 
 .values__text {
   font-size: 12px;
+  font-weight:bold;
 }
 
 .values__controls {
@@ -7416,7 +7405,8 @@ opacity: 1;
   margin-left: auto;
   margin-right: auto;
   padding-top: 330px;
-  width: 50%;
+  width: 70%;
+  padding-left: 4rem;
   padding-bottom: 100px;
 }
 @media (max-width: 999px) {
